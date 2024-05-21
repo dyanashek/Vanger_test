@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block title %}
+  Главная Страница
+{% endblock %}
+{% block information %}
+  {% include 'includes/agency_info.html' %} 
+  {% include 'includes/advantages.html' %} 
+  {% include 'includes/slider.html' %} 
+{% endblock %}
