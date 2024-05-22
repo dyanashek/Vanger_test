@@ -5,7 +5,7 @@
     <div class="col-12 col-md-8 mx-auto">
       <div class="thumbnail-slider">
         {% for image in images %}
-          {% thumbnail image.image 200x200 crop as im%}
+          {% thumbnail image.image 200x200 crop as im %}
           <div class="container text-center">
             <img class="thumbnail-image" src="{{ im.url }}" alt="{{ image.description }}">
           </div>
