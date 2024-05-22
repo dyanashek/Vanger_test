@@ -13,14 +13,14 @@
 ```sh
 git clone https://github.com/dyanashek/Vanger_test
 ```
-- Установите виртуальное окружение и активировать его:
+- Установите виртуальное окружение и активируйте его:
 > Установка и активация в корневой папке проекта
 ```sh
 python3 -m venv venv
 source venv/bin/activate # for macOS
 source venv/Scripts/activate # for Windows
 ```
-- Установить зависимости: (из директории, содержащей req.pip)
+- Установите зависимости: (из директории, содержащей req.pip)
 ```sh
 pip install -r req.pip
 ```
@@ -31,7 +31,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
-- Запустить проект (из директории, содержащей файл manage.py):
+- Запустите проект (из директории, содержащей файл manage.py):
 ```sh
 python3 manage.py runserver
 ```
